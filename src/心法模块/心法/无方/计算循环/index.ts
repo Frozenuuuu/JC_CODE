@@ -1,0 +1,34 @@
+import type { 循环数据 } from '@/@types/循环'
+
+/**
+ * @name 用于计算的循环数据
+ * 该数据可以通过JCL分析器进行获取，也可以自己根据实际情况编写
+ */
+
+// 循环
+// import 测试循环 from './测试循环.json'
+import 资深战犯 from './资深战犯.json'
+import 养荣_紫武 from './养荣_紫武.json'
+import 养荣_助手 from './养荣_助手.json'
+// import 折枝_紫武 from './折枝_紫武.json'
+import 避奚养荣_紫武 from './避奚养荣_紫武.json'
+
+import 应理_橙武 from './应理_橙武.json'
+import 养荣_橙武 from './养荣_橙武.json'
+import 避奚养荣_橙武 from './避奚养荣_橙武.json'
+import 避奚养荣_橙武_欧皇 from './避奚养荣_橙武_欧皇.json'
+
+const 计算循环: 循环数据[] = [
+  // 测试循环,
+  避奚养荣_紫武,
+  养荣_紫武,
+  养荣_助手,
+  资深战犯,
+  // 折枝_紫武,
+  应理_橙武,
+  养荣_橙武,
+  避奚养荣_橙武,
+  避奚养荣_橙武_欧皇,
+] as 循环数据[]
+
+export default 计算循环

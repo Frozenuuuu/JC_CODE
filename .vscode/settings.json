@@ -1,0 +1,16 @@
+{
+  "conventionalCommits.scopes": [
+    "common",
+    "计算",
+    "装备",
+    "系数",
+    "蓬莱",
+    "版本发布",
+    "功能",
+    "衍天",
+    "万灵",
+    "花间"
+  ],
+  "files.autoSaveWhenNoErrors": true,
+  "files.autoSaveWorkspaceFilesOnly": true
+}
